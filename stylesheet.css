@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+li {
+   list-style: none;
+}  
+
 .clear {
   clear: left;
 }
@@ -56,4 +60,109 @@ a {
   background-color: rgb(235 235 235);
   color: rgb(31, 60, 143);
   transition: 0.3s;
+}
+
+
+/* footer */
+.footer {
+  background-color: #6a3fb5;
+  color: #fff;
+  height: 300px;
+  padding: 40px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-1 {
+  width: 30%;
+}
+
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.footer-1 p {
+  margin-bottom: 10px;
+}
+
+.horizontal-list {
+  margin-top: 20px;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 6px 8px;
+  margin-bottom: 15px;
+}
+
+.fa {
+  color: #fff;
+}
+
+.fa:hover {
+  color: #000;
+}
+
+.link-item {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.link-item a {
+  color: #fff;
+}
+
+.link-item a:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+}
+.form input {
+  padding: 12px 14px;
+  border-radius: 0;
+  border: 2px solid #fff;
+  width: 30%;
+  line-height: normal;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.form input:focus{
+  outline: none;
+}
+
+.submit-send {
+  width: 15%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #d0af86;
+  background-color: #d0af86;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 7px #493f32;
+}
+
+.submit-send:hover {
+  background-color: #fff ;
+  color: #d0af86;
+}
+
+.submit-send:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
