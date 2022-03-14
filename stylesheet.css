@@ -64,10 +64,10 @@ li {
 
 
 /* footer */
-.footer {
+footer {
   background-color: #6a3fb5;
   color: #fff;
-  height: 300px;
+  height: 420px;
   padding: 40px;
 }
 
@@ -92,6 +92,7 @@ li {
 
 .horizontal-list {
   margin-top: 20px;
+  padding: 0;
 }
 
 .list-item {
@@ -106,6 +107,10 @@ li {
 
 .fa:hover {
   color: #000;
+}
+
+.link-list {
+  padding: 0;
 }
 
 .link-item {
