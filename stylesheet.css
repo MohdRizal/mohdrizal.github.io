@@ -21,3 +21,39 @@ a {
   margin: 0 auto;
 }
 
+.body-pertama{
+  background-image: url("\mouse-image2.png");
+  height: 500px;
+  background-size: cover;
+  text-align: left;
+  padding: 150px 0 50px 0;
+}
+
+.body-pertama h1{
+  font-size: 65px;
+  margin-bottom: 5px;
+  color: rgb(31, 60, 143);
+}
+.body-pertama h2{
+  font-size: 35px;
+  margin: 5px 0 10px 0;
+}
+.body-pertama p{
+  margin: 10px 0 10px 0;
+  font-style: normal;
+  width: 370px;
+}
+.btn-price{
+  border-radius: 25px;
+  color: rgb(255, 254, 254);
+  display: inline-block;
+  background-color: rgb(31, 60, 143);
+  padding: 10px 20px;
+  border: 2px solid rgb(31, 60, 143);
+  cursor: pointer;
+}
+.btn-price:hover{
+  background-color: rgb(235 235 235);
+  color: rgb(31, 60, 143);
+  transition: 0.3s;
+}
