@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  /* font-family: "Lucida Grande"; */
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 a {
@@ -38,7 +39,7 @@ li {
 .body-pertama h1{
   font-size: 65px;
   margin-bottom: -15px;
-  color: rgb(31, 60, 143);
+  color: #6a3fb5;
 }
 .body-pertama h2{
   font-size: 35px;
@@ -48,7 +49,7 @@ li {
 .body-pertama p{
   font-style: normal;
   width: 370px;
-  background: rgb(235 235 235);
+  background: rgba(235, 235, 235, 0.4);
   margin-top: 10px;
   margin-bottom: 10px;
   animation: text 2s 1;
@@ -64,9 +65,9 @@ li {
   border-radius: 25px;
   color: rgb(255, 254, 254);
   display: inline-block;
-  background-color: rgb(31, 60, 143);
+  background-color: #6a3fb5;
   padding: 8px 15px;
-  border: 2px solid rgb(31, 60, 143);
+  border: 2px solid #6a3fb5;
   cursor: pointer;
   margin: 10px 0 10px 0;
 }
@@ -81,7 +82,7 @@ li {
 footer {
   background-color: #6a3fb5;
   color: #fff;
-  height: 420px;
+  /* height: 420px; */
   padding: 40px;
 }
 
@@ -148,6 +149,7 @@ footer {
 .footer-bottom p {
   margin-bottom: 10px;
 }
+
 .form input {
   padding: 12px 14px;
   border-radius: 0;
@@ -160,6 +162,10 @@ footer {
 
 .form input:focus{
   outline: none;
+}
+
+.form-footer {
+  background-color: #f3e5f5 !important;
 }
 
 .submit-send {
@@ -184,4 +190,14 @@ footer {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .form-input{
+    width: 100%;
+  }
+
+  .submit-send {
+    width: 80%;
+  }
 }
