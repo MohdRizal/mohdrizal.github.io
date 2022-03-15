@@ -49,15 +49,15 @@ li {
 .body-pertama p{
   font-style: normal;
   width: 370px;
-  background: rgba(235, 235, 235, 0.4);
+  background: rgb(238, 238, 238);
   margin-top: 10px;
   margin-bottom: 10px;
-  animation: text 2s 1;
   position: relative;
+  animation: text 2s 1;
 }
 @keyframes text{
   0%{
-    color: rgb(235 235 235);
+    color: rgb(238, 238, 238);
     margin-bottom: -60px;
   }
 }
