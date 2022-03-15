@@ -200,4 +200,47 @@ footer {
   .submit-send {
     width: 80%;
   }
+
+  .body-ketiga .content-img {
+    width: 100%;
+  }
+
+  .body-ketiga .content {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.body-ketiga {
+  padding: 120px;
+  background-image: url('bg-body3.webp');
+  position: relative;
+  background-size: cover;
+  text-align: center;
+}
+
+.body-ketiga h1 {
+  color: white;
+  text-shadow: -1px -1px 0 #6a3fb5, 1px -1px 0 #6a3fb5, -1px 1px 0 #6a3fb5, 1px 1px 0 #6a3fb5;
+}
+
+.body-ketiga .content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.body-ketiga p {
+  color: white;
+}
+
+.img-body-tiga .content-img {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.img-body-tiga::after {
+  content: "";
+  clear: both;
+  display: table;
 }
